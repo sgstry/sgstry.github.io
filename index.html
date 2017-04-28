@@ -1,47 +1,60 @@
 <!DOCTYPE html>
 <html lang="en-us">
-    <head>
-        <title>About Me</title>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width">
-        <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
-        <link rel="stylesheet" type="text/css" href="assets/css/style.css">
-    </head>
-    <body>
-        <header>
-            <h1>Steven G. Strybos</h1>
-            <nav>
-                <ul>
-                	<li><a href="index.html">About</a></li>
-                	<li><a href="portfolio.html">Portfolio</a></li>
-                	<li><a href="contact.html">Contact</a></li>
-                </ul>
-            </nav>
-        </header>
-        <section class="main">
-            <section class="content">
-                <div id="aboutDiv">
-                    <h2>About Me</h2>
-                    <hr id="aboutHR">
-                    <img src="assets/images/Professional_Pic.jpg" alt="profile pic" id="proPic">
-                    <p>
-                        Building web applications is an amazing way for me to portray my creative side. It allows me to try new things, while at the same time delivering wonderful solutions for people to use in pursuing their personal or business goals.
-                    </p>
-                    <p>
-                        Let me assist you in creating a robust, easy-to-use application using advanced web technologies and cutting-edge knowledge from my experience working in the industry. The solution will fit your personal need and fulfill each one of your expectations for your ideal application.
-                    </p>
-                </div>
-                <div class="connectDiv">
-                    <h3>Connect with Me</h3>
-                    <hr id="connectHR">
-                    <a href="https://github.com/sgstry"><img src="assets/images/github.png" alt="github" class="logo"></a>
-                    <a href="https://www.linkedin.com/in/steven-strybos-2079204b"><img src="assets/images/linkedin.png" alt="linkedIn" class="logo"></a>
-                    <a href="http://stackoverflow.com/users/4378554/steven-s?tab=profile"><img src="assets/images/stackoverflow.png" alt="stackoverflow" class="logo"></a>
-                </div>
-            </section>
-        </section>
-        <footer>
-            &copy; Copyright 2017 Steven Strybos
-        </footer>
-    </body>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Hangman</title>
+    <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Raleway|Roboto" rel="stylesheet">
+  </head>
+  <body>
+
+	<div class="page-header">
+  		<h1 id="header">Hangman: Car Edition</h1>
+  		<h3 id="headerMsg">Try your luck at guessing the make of the vehicle!<h3> 
+	</div>
+
+    <div id="game" class="container">
+    	<div class="row">
+    		<div class="col-md-6">
+	        	<span id="message">Hello! Please guess a letter!</span>
+	      		<br>
+		        <br>
+		        <span class="gameText">WINS: </span>
+			    <span id="wins" class="gameText">0</span>
+			    <br>
+			    <br>
+			    <span class="gameText">LOSSES: </span>
+			    <span id="losses" class="gameText">0</span>
+			    <br>
+			    <br>
+		        <span class="gameText">CURRENT WORD: </span>
+		        <span id="word" class="gameText">_ _ _</span>
+		        <br>
+		        <br>
+		        <span class="gameText">NUMBER OF GUESSES REMAINING: </span>
+		        <span id="numberOfGuesses" class="gameText">10</span>
+		        <br>
+		        <br>
+		        <span class="gameText">LETTERS YOU'VE ALREADY GUESSED:</span>
+		        <span id="lettersGuessed" class="gameText">[ ]</span>
+		        <br>
+		        <br>
+		        <span class="gameText">MAKE A GUESS: </span>
+		        <input type="text" id="guess">
+		        <button id="submitGuess" onclick="makeGuess()">Submit</button>
+		        <br>
+		        <br>
+		    </div>
+		    <div class="col-md-6">
+				<img id="hangman" src="" alt="empty hangman image">
+		    </div>
+	    </div>
+    </div>
+
+    <script src="assets/javascript/game.js"></script>
+
+  </body>
 </html>

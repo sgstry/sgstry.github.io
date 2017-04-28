@@ -1,2 +1,2 @@
-# Responsive-Portfolio
-This is a responsive version of my basic portfolio
+# Hangman-Game
+This is a game where you can play hangman

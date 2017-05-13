@@ -1,0 +1,92 @@
+body {
+	background-image: url("../images/background.jpg");
+}
+
+input {
+	width: 150px;
+	height: 150px;
+}
+
+#title {
+	background-color: #cc5500;
+	color: white;
+	width: 300px;
+	height: 60px;
+	line-height: 1.8;
+	text-align: center;
+}
+
+#rules {
+	background-color: bisque;
+	width: 380px;
+	padding: 5px 0px 60px 0px;
+}
+
+.rule {
+	line-height: 1.5;
+}
+
+#randomNumber {
+	float: left;
+	height: 80px;
+	width: 100px;
+	margin: 10px 10px 10px 0px;
+	background-color: darkseagreen;
+	color: purple;
+	font-size: 26px;
+}
+
+#endRoundMessage {
+	display: block;
+}
+
+#wins {
+	display: block;
+}
+
+#losses {
+	display: block;
+}
+
+#scores {
+	float: left;
+	height: 80px;
+	width: 200px;
+	margin: 10px 0px 10px 0px;
+	background-color: aqua;
+}
+
+#crystals {
+	clear: both;
+	margin-bottom: 10px;
+}
+
+#redjewel {
+	margin-right: 10px;
+}
+
+#bluejewel {
+	margin-right: 10px;
+}
+
+#yellowjewel {
+	margin-right: 10px;
+}
+
+#totalScoreMsg {
+	height: 25px;
+	width: 200px;
+	text-align: left;
+	line-height: 1.5;
+	color: white;
+	background-color: cadetblue;
+	margin-bottom: 10px;
+}
+
+#score {
+	background-color: cadetblue;
+	color: white;
+	font-size: 24px;
+	width: 200px;
+	height: 100px;
+}

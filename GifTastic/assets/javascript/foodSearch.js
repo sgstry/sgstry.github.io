@@ -1,7 +1,7 @@
 
 var foodTopics = ["pasta", "burgers", "enchiladas", "candy", "ice cream", "pie", "steak", "turkey", "sushi", "dim sum",
 				  "caviar", "tacos", "surprise food", "southern cooking", "fruit", "veggies"];
-var query = "http://api.giphy.com/v1/gifs/search?q=";
+var query = "https://api.giphy.com/v1/gifs/search?q=";
 var api_key = "dc6zaTOxFJmzC";
 
 

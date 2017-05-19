@@ -1,0 +1,55 @@
+body {
+	background-image: url("../images/scarygordon.jpg");
+}
+label {
+	font-family: 'Inknut Antiqua', sans-serif;
+	margin-bottom: 10px;
+	color: white;
+	display: block;
+}
+
+.row {
+	margin-top: 10px;
+}
+
+#new-food {
+	position: absolute;
+	right: 0px;
+	width: 25%;
+	height: 100%;
+	margin: 30px 0px 10px 20px;
+}
+
+#food-input {
+	width: 95%;
+	margin: 0px 10px 10px 0px;
+}
+
+#food-container {
+	width: 75%;
+	position: absolute;
+	left: 0px;
+	margin: 50px 20px 10px 20px;
+}
+
+.food-div {
+	margin: 10px;
+}
+
+#buttons {
+	display: block;
+}
+
+.btn {
+	margin: 5px;
+	font-family: 'Indie Flower';
+}
+
+#logo {
+	background-image: url("../images/powered_by_giphy.gif");
+	background-size: 100%;
+	background-repeat: no-repeat;
+	width: 100%;
+	height: 75px;
+	margin-top: 20px;
+}
